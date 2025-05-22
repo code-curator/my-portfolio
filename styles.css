@@ -47,3 +47,26 @@ nav ul li a {
   cursor: pointer;
 }
 /* End of header styling*/
+/*About me styling*/
+.About {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+.About h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.About p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: black
+}
+
