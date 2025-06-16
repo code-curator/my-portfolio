@@ -1,6 +1,6 @@
 *{
-    margin: opx;
-    padding: opx;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 /* Style the header */
@@ -48,19 +48,11 @@ nav ul li a {
 }
 
 /* Call-to-Action Button */
-.cta {
-  background-color: green;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-}
 
 /* End of header styling*/
 /*About me styling*/
-.About {
-  background-color: #f9f9f9;
+.about {
+  background-color: #8ccec8;
   padding: 40px 20px;
   margin: 40px auto;
   border: 1px solid #ddd;
@@ -68,14 +60,14 @@ nav ul li a {
   max-width: 800px;
   box-sizing: border-box;
 }
-.About h2 {
+.about h2 {
   font-size: 2em;
   margin-bottom: 20px;
   color: #333;
   text-align: center;
 }
 
-.About p {
+.about p {
   font-size: 1.1em;
   line-height: 1.6;
   color: black
@@ -85,12 +77,10 @@ nav ul li a {
   background-color: lightblue;
   border-radius: 50px;
   padding: 20px 20px;
-  margin: 40px auto;
+  margin: 20px auto;
   border: 1px solid #ddd;
-  border-radius: 50px;
   max-width: 800px;
   box-sizing: border-box;
-  list-style: none;
 
 }
 .projects h2 {
@@ -101,9 +91,9 @@ nav ul li a {
   text-decoration: none;
   font-size: 1em; 
 }
-.projects li{
-  list-style: none;
-  text-align: center;
+.projects h3{
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 /* Contacts styling*/
 .contacts{
