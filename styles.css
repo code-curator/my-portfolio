@@ -11,7 +11,7 @@ header {
   display: flex;
 justify-content: space-between;
 align-items: center;
- max-width: 100%;
+ width: 100%;
   margin: 0 auto;
 }
 .name {
@@ -60,20 +60,30 @@ nav ul li a {
   margin: 40px auto;
   border: 1px solid #ddd;
   border-radius: 50px;
-  max-width: 800px;
+
   box-sizing: border-box;
+  max-width: 1200px;
 }
 .about h2 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #333;
   text-align: center;
 }
 
-.about p {
+.about-p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
   font-size: 1.1em;
   line-height: 1.6;
-  color: black
+  color: black;
+  align-content: center;
+}
+.about-img {
+  width: 750px;
+  height: auto;
+  border-radius: 12px;
 }
 /*Project Styling*/
 .projects{
