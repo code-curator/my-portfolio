@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif ;
 }
+body {
+background-image: url();  
+background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* Style the header */
 header {
   background-color: #bcf1f5;
@@ -181,23 +188,60 @@ button:hover{
   margin-bottom: 10px;
   object-fit: cover;
 }
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.project-links a:hover {
+  background-color: darkgreen;
+}
 
 
 /* Contacts styling*/
-.contacts{
-  border-radius: 50px;
-  background-color: aqua;
-  vertical-align: middle;
-  padding:0px 0px;
- margin: 20px auto;
- max-width: 800px;
-  
-}
-.contacts h2{
-text-align: center;
-}
-.contacts li{
+.contact {
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+  border-radius: 30px;
   text-align: center;
-  list-style: none;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.contact-info a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
   text-decoration: underline;
+}
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004d40;
+  color: white;
+  margin-top: 40px;
+  border-top: 2px solid #00695c;
 }
